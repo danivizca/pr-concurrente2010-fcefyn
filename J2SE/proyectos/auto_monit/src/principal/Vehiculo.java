@@ -1,8 +1,8 @@
 package principal;
 
 /* Clase abstracta. 
- * Contiene métodos que deben ser implementados por la clase hija.
- * Prestar atención a los modificadores 'protected' y sacar provecho de ellos en la clase hija.
+ * Contiene mï¿½todos que deben ser implementados por la clase hija.
+ * Prestar atenciï¿½n a los modificadores 'protected' y sacar provecho de ellos en la clase hija.
  * Implementar las 4 clases hija: 
  *   ColectivoSinControl_Matricula, 
  *   ColectivoConUnInspector_Matricula, 
@@ -14,8 +14,8 @@ public abstract class Vehiculo{
 	private static final int RETARDO_MS = 70;
 	private int ingresosPermitidosA; 		/* Ingresos permitidos por puerta A. */
 	private int ingresosPermitidosB; 		/* Ingresos permitidos por puerta B. */
-	private int ingresosPorA = 0;			/* Cantidad de ingresos al momento por puerta A. */
-	private int ingresosPorB = 0;			/* Cantidad de ingresos al momento por puerta B. */
+	private int ingresosPorA = 0;			/* Cantidad de ingresos al memento por puerta A. */
+	private int ingresosPorB = 0;			/* Cantidad de ingresos al memento por puerta B. */
 	
 	private Object inspectorA = new Object(); /* Inspector A. */ 
 	private Object inspectorB = new Object(); /* Inspector B. */
